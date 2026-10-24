@@ -1,0 +1,155 @@
+html
+<!DOCTYPE html>
+<html lang="kn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ಸತೀಶ್ ಬಿಳಿನೆಲೆ | ವೈಯಕ್ತಿಕ ವೆಬ್‌ಪುಟ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            text-align: center;
+            padding: 4rem 1rem;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+        .profile-section {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .profile-img-placeholder {
+            width: 150px;
+            height: 150px;
+            background-color: #ddd;
+            border-radius: 50%;
+            margin: 0 auto 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            font-weight: bold;
+            border: 4px solid #2a5298;
+        }
+        .gallery-section {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
+        }
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .photo-placeholder {
+            background-color: #eee;
+            height: 200px;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #888;
+            border: 2px dashed #ccc;
+        }
+        .social-links {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .social-btn {
+            display: inline-block;
+            padding: 0.8rem 1.8rem;
+            margin: 0.5rem;
+            border-radius: 50px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: transform 0.2s;
+        }
+        .social-btn:hover {
+            transform: scale(1.05);
+        }
+        .youtube { background-color: #ff0000; }
+        .facebook { background-color: #1877f2; }
+        .instagram { background-color: #e1306c; }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #777;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ಸತೀಶ್ ಬಿಳಿನೆಲೆ (Sathish Bilinele)</h1>
+        <p>ನನ್ನ ವೈಯಕ್ತಿಕ ವೆಬ್‌ಪುಟಕ್ಕೆ ಸುಸ್ವಾಗತ</p>
+    </header>
+
+    <div class="container">
+        
+        <!-- ಪ್ರೊಫೈಲ್ ವಿಭಾಗ -->
+        <section class="profile-section">
+            <div class="profile-img-placeholder">ನಿಮ್ಮ ಫೋಟೋ</div>
+            <h2>ನನ್ನ ಬಗ್ಗೆ</h2>
+            <p style="margin-top: 1rem; color: #555;">
+                [ಇಲ್ಲಿ ನಿಮ್ಮ ವೃತ್ತಿ, ಹವ್ಯಾಸಗಳು, ಆಸಕ್ತಿಗಳು ಮತ್ತು ನಿಮ್ಮ ಸಾಧನೆಗಳ ಬಗ್ಗೆ ಕಿರು ಪರಿಚಯವನ್ನು ಬರೆಯಬಹುದು.]
+            </p>
+        </section>
+
+        <!-- ಫೋಟೋ ಗ್ಯಾಲರಿ ವಿಭಾಗ -->
+        <section class="gallery-section">
+            <h2 style="text-align: center; color: #2a5298;">ಫೋಟೋಗಳು</h2>
+            <div class="gallery-grid">
+                <div class="photo-placeholder">ಚಿತ್ರ 1</div>
+                <div class="photo-placeholder">ಚಿತ್ರ 2</div>
+                <div class="photo-placeholder">ಚಿತ್ರ 3</div>
+                <div class="photo-placeholder">ಚಿತ್ರ 4</div>
+            </div>
+        </section>
+
+        <!-- ಸೋಷಿಯಲ್ ಮೀಡಿಯಾ ಲಿಂಕ್‌ಗಳು -->
+        <section class="social-links">
+            <h2>ನನ್ನನ್ನು ಸಂಪರ್ಕಿಸಿ</h2>
+            <a href="https://youtube.com" target="_blank" class="social-btn youtube">YouTube</a>
+            <a href="https://facebook.com" target="_blank" class="social-btn facebook">Facebook</a>
+            <a href="https://instagram.com" target="_blank" class="social-btn instagram">Instagram</a>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 ಸತೀಶ್ ಬಿಳಿನೆಲೆ. ಎಲ್ಲ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ.</p>
+    </footer>
+
+</body>
+</html>
